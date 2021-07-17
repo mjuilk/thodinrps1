@@ -36,5 +36,3 @@ function game(rounds) {
         playRound(playerSelection, computerSelection);
     }
 }
-
-console.log(game(3));
