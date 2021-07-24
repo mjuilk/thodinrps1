@@ -29,10 +29,3 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-function game(rounds) {
-    for (let i = 0; i < rounds; i++) {
-        let playerSelection = 'rock';
-        let computerSelection = computerPlay();
-        playRound(playerSelection, computerSelection);
-    }
-}
